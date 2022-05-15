@@ -43,12 +43,13 @@
      margin: 0;
      padding: 0;
  }
- body {
-background-image: url('./images/background_1.svg');
-background-size: cover;
-background-repeat: no-repeat;
-
-height: 1080px;
+.header{
+     min-height: 100vh;
+      width: 100%;
+background-image:  url('./images/background_1.svg');
+background-size:cover;
+background-position: center;
+position: relative;
 }
 
 .menu{
@@ -137,3 +138,54 @@ position: relative;
      }
 }
 
+.About_me{
+     
+     background-color: #3D536D;
+     background-size:cover;
+     background-position: center;
+     position: relative;
+
+}
+h3{
+     margin-left: 290px;
+     margin-top: 100px;
+     color: #FFFCE5;
+     text-decoration:none;
+     font-family: 'Mukta', sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 34px;
+     line-height: 20px;
+}
+
+p{
+     margin-top: 100px;
+     color: #FFFCE5; 
+     font-family: 'Mukta', sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 24px;
+     line-height: 20px; 
+}
+.slika{
+     position: relative;
+     margin-top: -500px;
+     margin-left: 100px;
+}
+.col{
+ width: 400px;
+ margin-top: 200px;
+ margin-left: 690px;     
+}
+.name{
+     margin-left: 400px;  
+}
+.main{
+     margin-top: -100px;
+}
+.projects{
+background-image:  url('./images/proj.svg');
+background-size:cover;
+background-position: center;
+position: relative;
+}
