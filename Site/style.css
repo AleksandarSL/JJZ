@@ -203,7 +203,8 @@ height: 150vh;
 }
 .pro{
     padding: 0px;
-    left: 300px;
+    height: 200px;
+    margin-left: 100px;
 }
 .slika2{
      margin-left: -1000px;
@@ -211,21 +212,24 @@ height: 150vh;
      border-radius: 100px;
 }
 .next{
+     position: relative;
      display: table;
      margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
      white-space: pre-line; /* не нужен <br> */ 
      word-wrap: break-word;
      left: 100px;
-     top: 430px;
+     margin-top: 430px;
+     left: -50px;
 }
 .prev{
      display: table;
      margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
      white-space: pre-line; /* не нужен <br> */ 
      word-wrap: break-word;
-     left: -450px;
-     top: 380px;
+     margin-left: -250px;
+     margin-top: 380px;
 }
+
 
 .contacts{
 background-image:url('./images/back_3.svg');
@@ -238,8 +242,10 @@ height: 150vh;
 
 #slider {
 	overflow: hidden;
-     width: 1000px;
-     left: 500px;
+     width: 2500px;
+     position: relative;
+     left: 100px;
+     top: 100px;
      
 }
 #slider figure {
@@ -249,10 +255,13 @@ height: 150vh;
 	left: -600px;
 	animation: 20s slider infinite;
      top: 300px;
+     
 }
 #slider figure img {
 	float: left;
 	width: 20%;
+     border-radius: 20px;
+     
 }
 
 @keyframes slider {
@@ -286,5 +295,31 @@ height: 150vh;
 }
 
 .col1{
-     
+     width: 500px;
+     position: relative;
+     top: 400px;
+     left: -190px;
+    }
+    .prev a:hover{
+     color:#465c7a;
+     list-style: none;
+    }
+    .prev a{
+     text-decoration: none;
+     color: #FFFCE5;
+     list-style: none;
+    }
+    .next a:hover{
+     color:#465c7a;
+     list-style: none;
+    }
+    .next a{
+     text-decoration: none;
+     color: #FFFCE5;
+     list-style: none;
+    }
+    .naziv{
+     position: relative;
+     top: 200px;
+    width: 1000px;
     }
