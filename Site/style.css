@@ -1,30 +1,6 @@
 /* mukta-300 - latin */
-@font-face {
-    font-family: 'Mukta';
-    font-style: normal;
-    font-weight: 300;
-    src: local(''),
-         url('../fonts/mukta-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mukta-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* mukta-regular - latin */
-  @font-face {
-    font-family: 'Mukta';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/mukta-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mukta-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* mukta-500 - latin */
-  @font-face {
-    font-family: 'Mukta';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''),
-         url('../fonts/mukta-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/mukta-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+
+  
   .line{
      background: #FFFCE5;
      height: 2px;
@@ -323,3 +299,25 @@ height: 150vh;
      top: 200px;
     width: 1000px;
     }
+
+    /* PISMENI */
+
+   .pismeni1{
+        background-color: aquamarine;
+        position: relative;
+        height: 100px;
+        top:400px;
+   }
+   .pismeni2{
+     background-color: rgb(222, 250, 61);
+     position: relative;
+     height: 100px;
+     top:300px
+}
+.pismeni1 p{
+     color: #000000;
+}
+.pismeni2 p{
+     color: #000000;
+}
+    
