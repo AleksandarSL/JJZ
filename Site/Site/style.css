@@ -1,0 +1,359 @@
+/* mukta-300 - latin */
+
+  
+  .line{
+     background: #FFFCE5;
+     height: 2px;
+     width: 480px;
+     margin-left: 680px;
+     margin-top: -10px;
+}
+.line2{
+     background: #FFFCE5;
+     height: 1px;
+     width: 880px;
+     margin-left: 500px;
+     margin-top: -250px;
+}
+  *{
+     margin: 0;
+     padding: 0;
+ }
+.header{
+     min-height: 100vh;
+      width: 100%;
+background-image:  url('./images/background_1.svg');
+background-size:cover;
+background-position: center;
+position: relative;
+}
+
+.menu{
+     width: 400px;
+     margin: auto;
+     height: 70px;
+     padding-right: 640px;
+}
+
+ul{
+     float:left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ul li{
+     
+     list-style: none;
+     margin-left: 172px;
+     margin-top: 38px;
+     font-size: 15px;
+}
+
+ul li a{
+     color: #FFFCE5;
+     text-decoration: none;
+     font-family: 'Mukta', sans-serif;
+     font-size:smaller;
+     font-style: normal;
+     font-size: 15px;
+}
+ul li a:hover{
+     color:#465c7a;
+}
+h1{
+     margin-left: 922px;
+     margin-top: 178px;
+     color: #FFFCE5;
+     text-decoration:wavy;
+     font-family: 'Mukta', sans-serif;
+     font-style:normal;
+     font-weight: 500;
+font-size: 46px;
+line-height: 126px;  
+}
+
+h2{
+     margin-left: -20px;
+     margin-top: 188px;
+     color: #FFFCE5;
+     text-decoration:none;
+     font-family: 'Mukta', sans-serif;
+     font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 80px;
+   
+}
+
+content{
+
+position: relative;
+}
+.content h1{
+     position: absolute;
+     transform: translate(-50%, -50%);
+}
+.content h1:nth-child(1){
+     color: transparent;
+     -webkit-text-stroke: 0.4px #FFFCE5;
+}
+.content h1:nth-child(2){
+     color: #FFFCE5;
+     animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate
+{
+     0%, 100%
+     {
+          clip-path: polygon(0 45%, 15% 43%, 24% 45%, 32% 51%, 45% 60%, 60% 63%, 77% 59%, 89% 51%, 100% 47%, 100% 100%, 0% 100%);
+     }
+     50%
+     {
+          clip-path: polygon(0 49%, 13% 56%, 25% 60%, 36% 61%, 48% 59%, 63% 54%, 74% 45%, 87% 38%, 100% 35%, 100% 100%, 0% 100%);
+     }
+}
+
+.About_me{
+     
+     background-color: #3D536D;
+     background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+box-sizing:content-box;
+position: relative;
+height: 80vh;
+      width: 100%;
+
+}
+h3{
+ 
+     color: #FFFCE5;
+     text-decoration:none;
+     font-family: 'Mukta', sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 34px;
+     line-height: 20px;
+}
+
+p{
+     margin-top: 100px;
+     color: #FFFCE5; 
+     font-family: 'Mukta', sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 24px;
+     line-height: 20px; 
+}
+.slika{
+     position: relative;
+     margin-top: -350px;
+     margin-left: 100px;
+     border-radius: 20px;
+     overflow: hidden;
+     display: flex;
+}
+.col{
+ width: 400px;
+ margin-top: 100px;
+ margin-left: 690px;     
+}
+.name{
+     margin-left: 400px;  
+}
+.main{
+     margin-top: -100px;
+}
+.projects{
+background-image:url('./images/proj.svg');
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+display:flex;
+
+padding: 0px;
+margin: 0px;
+height: 150vh;
+}
+.pro{
+    padding: 0px;
+    height: 200px;
+    margin-left: 100px;
+}
+.slika2{
+     margin-left: -1000px;
+     margin-top: 200px;
+     border-radius: 100px;
+}
+.next{
+     position: relative;
+     display: table;
+     margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
+     white-space: pre-line; /* не нужен <br> */ 
+     word-wrap: break-word;
+     left: 100px;
+     margin-top: 430px;
+     left: -50px;
+}
+.prev{
+     display: table;
+     margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
+     white-space: pre-line; /* не нужен <br> */ 
+     word-wrap: break-word;
+     margin-left: -250px;
+     margin-top: 380px;
+}
+
+
+.contacts{
+background-image:url('./images/back_3.svg');
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 150vh;
+
+}
+
+#slider {
+	overflow: hidden;
+     width: 2500px;
+     position: relative;
+     left: 100px;
+     top: 100px;
+     
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: -600px;
+	animation: 20s slider infinite;
+     top: 300px;
+     
+}
+#slider figure img {
+	float: left;
+	width: 20%;
+     border-radius: 20px;
+     
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+.col1{
+     width: 500px;
+     position: relative;
+     top: 400px;
+     left: -190px;
+    }
+    .prev a:hover{
+     color:#465c7a;
+     list-style: none;
+    }
+    .prev a{
+     text-decoration: none;
+     color: #FFFCE5;
+     list-style: none;
+    }
+    .next a:hover{
+     color:#465c7a;
+     list-style: none;
+    }
+    .next a{
+     text-decoration: none;
+     color: #FFFCE5;
+     list-style: none;
+    }
+    .naziv{
+     position: relative;
+     top: 200px;
+    width: 1000px;
+    }
+
+    /* PISMENI */
+
+   .pismeni1{
+        background-color: aquamarine;
+        position: relative;
+        height: 100px;
+        top:400px;
+   }
+   .pismeni2{
+     background-color: rgb(222, 250, 61);
+     position: relative;
+     height: 100px;
+     top:300px
+}
+.pismeni1 p{
+     color: #000000;
+}
+.pismeni2 p{
+     color: #000000;
+}
+.prvi{
+     position: relative;
+     float:right; 
+     width: 150px; 
+     height:50px; 
+     background-color:rgb(225, 0, 255);
+     margin: 20px;
+    
+    
+}
+.drugi{
+     position: relative;
+     float:right; 
+     width: 150px; 
+     height:50px; 
+     background-color:rgb(29, 124, 34);
+     margin: 20px;
+     
+ 
+}  
+.treci{
+     position: relative;
+     float:right; 
+     width: 150px; 
+     height:50px; 
+     background-color:rgb(255, 243, 72);
+     right: 20px;
+     margin: 20px;
+    
+   }  
+   .span{
+        background-color: rgb(21, 255, 13);
+   }
+   .drugi p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+     
+   }
