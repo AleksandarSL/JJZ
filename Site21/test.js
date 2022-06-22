@@ -144,7 +144,7 @@ var pismeni = {list: "author", dt: [
 createElements(pismeni);
 
 
-function createElements(kvote){
+function createElements(pismeni){
   var DrugiDiv = document.getElementById("drugi");
   var div1 = document.createElement("div");
   div1.style = "display: inline";
