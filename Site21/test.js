@@ -141,10 +141,10 @@ var pismeni = {list: "author", dt: [
 ]
 }
 
-createElements(kvote);
+createElements(pismeni);
 
 
-function createElements(citati){
+function createElements(kvote){
   var DrugiDiv = document.getElementById("drugi");
   var div1 = document.createElement("div");
   div1.style = "display: inline";
